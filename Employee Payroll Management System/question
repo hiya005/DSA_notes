@@ -1,0 +1,23 @@
+Problem Statement
+Employee Payroll Management System
+Design and implement an Employee Payroll Management System using Object Oriented Programming (OOPS) concepts.
+System Requirements:
+
+Create an abstract class Employee that contains:
+Employee ID
+Employee Name
+Basic Salary
+An abstract method calculate_salary().
+Implement encapsulation by keeping data members private/protected and providing appropriate getter and setter methods.
+
+Create two derived classes using inheritance:
+PermanentEmployee
+ContractEmployee
+Override the calculate_salary() method in both derived classes to demonstrate polymorphism:
+Permanent employee salary includes basic salary + allowances.
+Contract employee salary is calculated on hourly basis.
+Use runtime polymorphism by creating base class references to derived class objects.
+Create a separate class PayrollSystem that:
+Stores employee objects.
+Displays employee details and calculated salary.
+Demonstrate object creation, method calling, and data hiding in the main program.

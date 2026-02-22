@@ -1,0 +1,65 @@
+# ## what is adt ??? explain with example
+
+# # What is an ADT?
+# ADT stands for Abstract Data Type.
+# It is a logical description of how data behaves, without worrying about how it is implemented.
+# An ADT defines what operations can be performed on the data and what each operation does, but not how these operations are executed internally.
+# Think of it like a blueprint or a contract for data structures.
+
+# # Key Points About ADTs:
+# Abstraction: You only care about what operations are allowed, not how they are implemented.
+# Operations: Every ADT has a set of operations. Examples include:
+# insert
+# delete
+# get
+# update
+# Implementation-independent: The same ADT can be implemented using arrays, linked lists, trees, etc.
+
+# # Common Examples of ADTs:
+# Stack (LIFO – Last In First Out)
+
+# Operations:
+# push(x) → add an element
+# pop() → remove top element
+# peek() → get top element
+# Behavior: Last element added is the first one removed.
+# Example in real life: A stack of plates – you take the top plate first.
+# Implementation: Can be done using array or linked list, but ADT only cares about the operations.
+
+# # Stack ADT example in Python
+# class Stack:
+#     def __init__(self):
+#         self.items = []
+    
+#     def push(self, item):
+#         self.items.append(item)
+    
+#     def pop(self):
+#         if not self.is_empty():
+#             return self.items.pop()
+    
+#     def peek(self):
+#         if not self.is_empty():
+#             return self.items[-1]
+    
+#     def is_empty(self):
+#         return len(self.items) == 0
+
+# # Using the stack
+# s = Stack()
+# s.push(10)
+# s.push(20)
+# print(s.pop())  # Output: 20
+# print(s.peek()) # Output: 10
+
+# Queue (FIFO – First In First Out)
+# Operations:
+# enqueue(x) → add to the rear
+# dequeue() → remove from the front
+# Behavior: First element added is the first one removed.
+# Example in real life: People standing in a queue at a ticket counter.
+
+# ✅ Important Note:
+# ADT is about what the data can do (operations), while data structure is how it actually does it (implementation).
+# ADT = Conceptual
+# Data Structure = Physical implementation

@@ -1,0 +1,6 @@
+138
+sum = 8 + 3 + 1
+i.e ek digit ek bar add ho rhi hai then dubara add nahi ho rahi 
+agar initially sum 0 hai to usme digit of number adds hoti jayengi 
+so hamne last ki digit ko extract kia use sum me add krkr remove krdia last 2nd digit 
+

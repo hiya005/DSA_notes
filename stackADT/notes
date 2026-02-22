@@ -1,0 +1,39 @@
+class = blueprint dikha deta hai 
+    ek model bana deta hai 
+    ye defined hota hai ki kya kya hoga 
+    push pop pull operations agar perform krne ho to agar alag alag array pe work krenge to complex hoga isliye class banayi ki same array pe kam kro
+
+init function = constructor 
+    class ke andar koi bhi ek chij ho jo everytime jitne functions honge usme access krni hi krni hai to use constructor bana do
+    jaise hi class ka object banega to ye constructor apne aap call ho jayega if it's useful for you then use it else not...
+    oops code made the code efficient 
+    now stackADT me self khud call ho jayega
+    
+self.data 
+    self me ab data dal dia 
+    list dal dia 
+    yani list ko constructor bana dia 
+    ab jab class ka object banega to ye function apne aap call ho jayega
+    self ek object hai jisme data stored hai 
+
+push function   
+    push function me self,x ko btane ki jrurat ni pdegi 
+    ye khud self.data ko utha lega
+
+pop function
+    same ye self.data se khud data ko utha lega cause it is a constructor
+    ye pehle check krega kya list me kuch data hai bhi ya nhi
+    agar data nhi hua to none 
+    agar data hua to nikal dega
+
+is empty
+    wha function ko call kr rhe the yha data ko def krdia 
+
+object st me class stackADT 
+    while true jabtk ye conditions true rhengi 
+    choice ek variable define kia user se input lia .strip empty spaces ko hta degi
+    if choice = 1 then push operation 
+    val=input("enter value to push")
+    st.push(val)
+
+main = jab tak likhenge ye jab tk main function to run nhi krega

@@ -1,0 +1,118 @@
+operationsin stack
+push - overflow
+pop - underflow
+top
+array - same type of data and continours memory storage
+
+common function
+traversal , insert , delete , search
+traversal - access from index
+insert - adding
+delete - remove
+search - finding an element in the array
+
+timecomplexity
+comparison-compare kitni bar ho rha hai
+shifting- kitni bar shift ho rha hai
+iteration-loop kitni bar run ho rha hai
+recursion-function khudko kitni bar call krra hai
+
+time complexity for performing a function
+search operation- n elements se compare karna pdega big of n O(n) we take worst case never
+| best or average
+insert - n cause move to krna pdega sb
+delete - n cause we don't know the location of that data
+push - 1 cause top pe hi jayega
+
+
+-- homework-
+what is adt ??? explain with example
+recursion and iteration difference
+difference between for loop, while loop and do while loop --- problem based difference
+if else , nested if else
+use of functions how to call define
+oops concept -
+
+dsa
+OOPS
+python most important
+
+ADT = data+ operationsinan adt is composed of a collection of data and a set of operations of data
+we know what is happerning don't know how
+
+adt - list stact queue
+list adt - link list , add and remove data
+sequential access, dynamic size , ordered collectionrandom access , support for insertion and deletion
+easy transversal 
+
+   head                                             tail
+|---------|     |---------|     |---------|     |---------|
+|     1   |-----|   1     |-----|   1     |-----|   1     |-----null
+|---------|     |---------|     |---------|     |---------|
+   data |
+        |
+        |
+        |
+        |
+        address of next node
+
+array me same type ka data hi kyu ?? cause element ka address nahi pta and isliye address access nah kr skte 
+linked list
+a - 298 --------------------|           traversing-visit krna
+                            |
+  c = 783 --------------------- b=310
+  |
+  |--------------------d = none
+  array me access krna easy hota ha due to indexing
+  but linked list me index nhi de skte so access difficust ho jata hai
+  linked list time complexity - O(n)
+  insert - O(1) cause kuch bhi shift nhi ho rha bs connect kro values shift kro and done 
+  a = 198
+  b = 320
+  c = 783
+  d = none
+  e ko a ke bad insert krna
+  cause e empty hai to e to 
+  agar a ko e se connect krna hai to a ke pas e ka address hona chiye to 198 kat jayega isliye ye nhi kr skte
+  agar e ko b se connect krenge to e=310
+  so new node ko previous node se connect nhi krenge new node ko aage wale node se connect krenge
+
+  function()
+----
+----
+----
+f() calling function i.e it start repeating after running completely
+
+n=3
+function(3)
+f=3*fun(2)
+      |
+      |
+    function(2)=2*fun(1)
+                    |
+                    |
+                function(1)=1*fun(0).........and so on
+
+it will never stop to stop this we have to write base condition...
+
+n=3
+function(n)
+if n==0 or n==1:
+    return 1
+else:
+    f=3*fun(2) 
+      |
+      |
+    function(2)=2*fun(1)
+                    |
+                    |
+                 function(1)            --=1*fun(0).........and so on
+                    return 1
+functions were opening before now after getting the value they are closing by substituting values
+
+time complexity - to check low xomplex is the problemnot to determine time 
+O(n or 1)
+for constant it's time complexity is O(1)
+for variable it's time complexity is O(n)
+for polynomical time complexity is O(n^x)
+for exponential time complexity is 2^nahn^n or n!
